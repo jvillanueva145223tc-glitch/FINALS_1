@@ -52,8 +52,16 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\AcademicTerm.cs" />
     <Compile Include="Models\Admin.cs" />
+    <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Faculty.cs" />
+    <Compile Include="Models\FacultyLoad.cs" />
+    <Compile Include="Models\Registrar.cs" />
+    <Compile Include="Models\Room.cs" />
+    <Compile Include="Models\Schedule.cs" />
+    <Compile Include="Models\Subject.cs" />
+    <Compile Include="Models\TimeSlot.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
