@@ -96,6 +96,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataAccess\DatabaseConnection.cs" />
+    <Compile Include="DataAccess\IAcademicTermRepository.cs" />
+    <Compile Include="DataAccess\IDepartmentRepository.cs" />
+    <Compile Include="DataAccess\IFacultyLoadRepository.cs" />
+    <Compile Include="DataAccess\IFacultyRepository.cs" />
+    <Compile Include="DataAccess\IRepository.cs" />
+    <Compile Include="DataAccess\IRoomRepository.cs" />
+    <Compile Include="DataAccess\IScheduleRepository.cs" />
+    <Compile Include="DataAccess\ISubjectRepository.cs" />
+    <Compile Include="DataAccess\ITimeSlotRepository.cs" />
+    <Compile Include="DataAccess\IUserRepository.cs" />
+    <Compile Include="DataAccess\ScheduleConflictChecker.cs" />
+    <Compile Include="DataAccess\SubjectRepository.cs" />
+    <Compile Include="DataAccess\UserRepository.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +153,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Forms\" />
     <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
